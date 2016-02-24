@@ -23,6 +23,7 @@ public class Driver {
 		File fileObject = null;
 		ObjectOutputStream os = null;
 		
+		System.out.println("Enter your name: ");
 		System.out.println("Enter filename: ");
 		filename = keyboard.next();
 		fileObject = new File(filename);
