@@ -148,5 +148,6 @@ public class Driver {
 			System.out.println(hr.getPay() + " same as " + sal.getPay());
 		else
 			System.out.println(hr.getPay() + " different from " + sal.getPay());
+			System.out.println("second");
 	}
 }
